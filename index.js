@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 app.post('/api/student', (req, res) => {
    let {name} = req.body
-   name - name.trim()
+   name = name.trim()
 
    students.push(name)
 
